@@ -1,5 +1,19 @@
 # javascript-group1
 
+Score : 1 point
+You did not call your main.js file or your hamida.js file in you html file.
+You have :
+<script> scr="Hamida.js"</script> 
+<script>scr="main.js"</script>
+It should be :
+<script scr="hamida.js"></script> 
+<script scr="main.js"></script>
+You should have used your main.js file to call functions from your individual js files. 
+The functions that you do have in your individual files look semi- accurate but none of them are called.
+Be sure to test your code.
+
+
+
 Create an English to Spanish dictionary. Provide the options below:
 ```
 Press 1 to list all English to Spanish translations, press 2 to list all Spanish to English translations, press 3 to enter a new English translation, press 4 to enter a new Spanish translation, and press 5 or 'q' to quit.
